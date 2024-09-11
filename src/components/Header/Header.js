@@ -10,7 +10,7 @@ function Header() {
             
             <div id="Bio"> 
                 <header>Joshua Walker</header>
-                <p><LoremIpsum avgSentencesPerParagraph={1} avgWordsPerSentence={5} p={1}/></p>
+                <p>Solo software and games developer</p>
             </div>
         </div>
     );
