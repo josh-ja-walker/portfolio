@@ -9,39 +9,42 @@ function Projects() {
 
             <ul id="ProjectList">
                 <Project name='Sorts TUI' 
+                    subtitle='In-terminal sorting algorithms simulator'
                     desc={<p>
                         Sort visualiser that simulates sorting algorithms on a bar chart, 
                         rendered in terminal using ratatui.rs crate for accessible and portable viewing. 
-                        <br></br>
+                        <hr></hr>
                         When sorted, outputs number of comparisons performed and corresponding algorithms'
                         time and space complexity. 
-                        <br></br>
+                        <hr></hr>
                         Provides terminal command line interface implemented using CLAP crate for ease of use.</p>}
                 />
 
                 <Project name='Weather Wallpaper'
+                    subtitle='Weather-dependent desktop wallpaper engine'
                     desc={<p>
                         Wallpaper manager that dynamically changes desktop wallpaper to reflect local weather.
-                        <br></br>
+                        <hr></hr>
                         Provides interactive menu to set weather depicted in user supplied wallpapers, 
                         then matches to data retrieved from WeatherAPI.com
                     </p>}
                 />
                 
-                <Project name={"Origame"}/>
-
             </ul>
         </div>
     );
 }
 
 /* Singular project */
-function Project({name, desc}) {
+function Project({name, subtitle, desc}) {
     return (
         <li>
             <div className="Project">
                 <header>{name}</header>
-                <div className="description">{desc}</div>
+                <div className='ProjectContent'>
+                    <div className="ProjectSubtitle">{subtitle}</div>
+                    <div className="ProjectDescription">{desc}</div>
+                </div>
             </div>
         </li>
     );

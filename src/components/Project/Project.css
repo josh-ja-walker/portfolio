@@ -9,26 +9,32 @@
     justify-content: start;
     align-content: stretch;
 
-    margin-top: 2vh;
-    margin-bottom: 2vh;
+    margin-bottom: 5vh;
 }
 
 .Project > header {
     flex-shrink: 0;
     
-    font-weight: bold;
+    color: darkgray;
     text-align: justify;
     
     width: 40%;
     margin-right: 0;
 }
 
-.description {
-    text-align: justify;
+.ProjectSubtitle {
+    font-weight: bold;
 }
 
-.description > p {
+.ProjectDescription > * {
+    text-align: left;
+}
+
+.ProjectDescription > p {
     margin: 0;
 }
 
+.ProjectDescription > p > hr {
+    visibility: hidden;
+}
 
