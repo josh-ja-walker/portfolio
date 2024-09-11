@@ -1,8 +1,5 @@
-import LoremIpsum from 'react-lorem-ipsum';
-
 import '../../index.css';
 import './Project.css';
-
 
 /* List of projects */
 function Projects() {
