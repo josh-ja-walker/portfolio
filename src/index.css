@@ -1,5 +1,7 @@
 body {
-  margin: 0;
+  width: 35vw;
+  margin: auto;
+
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -12,26 +14,15 @@ code {
   monospace;
 }
 
+p {
+  text-align: justify;
+}
 
 .Section {
-  width: 65vw;
-  margin: auto;
   margin-bottom: 8vh;
 }
 
 .Section > header {
-  font-size: larger;
   font-weight: bold;
   text-align: left;
-  
-  margin-left: 5%;
-}
-
-.Section > :not(header) {
-  width: 80%;
-  margin: auto;
-}
-
-.Section > p {
-  text-align: justify;
 }
