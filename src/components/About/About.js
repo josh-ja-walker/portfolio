@@ -8,7 +8,7 @@ function About() {
         <div id='About' className='Section'>
             <header>About</header>
             <p>
-                <LoremIpsum />
+                <LoremIpsum p={1} avgSentencesPerParagraph={4}/>
             </p>
         </div>
     );

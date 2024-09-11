@@ -1,20 +1,38 @@
 #Header {
     display: flex;
+    flex-direction: row;
+    
+    justify-content: start;
+    align-items: center;
+
+    height: 40vh;
+}
+
+img.Profile {
+    border-radius: 50%;
+
+    aspect-ratio: 1;
+    height: 25%;
+    width: auto;
+
+    margin: 15% 7.5% 15% 0;
+}
+
+#Bio {
+    display: flex;
     flex-direction: column;
     
     justify-content: center;
     align-items: center;
     text-align: center;
-
-    height: 40vh;  
 }
 
-#Header > header {
+#Bio > header {
     font-size: xx-large;
     font-weight: bolder;
 }
 
-#Header > p {
+#Bio > p {
     font-weight: bold;
     font-size: medium;
 }
