@@ -1,0 +1,34 @@
+#ProjectList {
+    list-style-type: none;
+    padding: 0;
+}
+
+.Project { 
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-content: stretch;
+
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+}
+
+.Project > header {
+    flex-shrink: 0;
+    
+    font-weight: bold;
+    text-align: justify;
+    
+    width: 30%;
+    margin-right: 0;
+}
+
+.description {
+    text-align: justify;
+}
+
+.description > p {
+    margin: 0;
+}
+
+

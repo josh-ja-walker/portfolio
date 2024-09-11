@@ -9,5 +9,29 @@ body {
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  monospace;
+}
+
+
+.Section {
+  width: 65vw;
+  margin: auto;
+  margin-bottom: 8vh;
+}
+
+.Section > header {
+  font-size: larger;
+  font-weight: bold;
+  text-align: left;
+  
+  margin-left: 5%;
+}
+
+.Section > :not(header) {
+  width: 80%;
+  margin: auto;
+}
+
+.Section > p {
+  text-align: justify;
 }

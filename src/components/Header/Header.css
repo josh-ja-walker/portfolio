@@ -1,0 +1,12 @@
+#Header {
+    text-align: center;
+}
+
+#Header > header {
+    font-size: xx-large;
+    font-weight: bolder;
+}
+
+#Header > p {
+    font-weight: bold;
+}
