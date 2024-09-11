@@ -1,4 +1,3 @@
-import '../../index.css';
 import './Project.css';
 
 /* List of projects */
@@ -17,7 +16,8 @@ function Projects() {
                         When sorted, outputs number of comparisons performed and corresponding algorithms'
                         time and space complexity. 
                         <hr></hr>
-                        Provides terminal command line interface implemented using CLAP crate for ease of use.</p>}
+                        Provides terminal command line interface implemented using CLAP crate for ease of use.
+                    </p>}
                 />
 
                 <Project name='Weather Wallpaper'
@@ -42,9 +42,35 @@ function Projects() {
                         Developed for my A level Computing project; I achieved a final grade of A*.
                     </p>}
                 />
+
+                <Project name='Bogosort'
+                    subtitle='Sorting visualiser website'
+                    desc={<p>
+                        Website simulation of bogosort; bubble sort implemented as a contrasting sorting algorithm. 
+                    </p>}
+                />
                 
+                <Project name='Portfolio'
+                    subtitle="Personal professional portfolio"
+                    desc={<p>
+                        The website you are currently on
+                    </p>}
+                />
+
+            </ul>
+        </div>
+    );
+}
+
+
+/* Game Jams participated in */
+function GameJams() {
+    return (
+        <div className='Section'>
+            <header>Game Jams</header>
+            <ul id="ProjectList">
                 <Project name='Painball'
-                    subtitle='Ludwig Jam 2021 (Foddian)'
+                    subtitle='Ludwig Jam (Foddian)'
                     desc={<p>
                         Foddian pinball game, emulating the frustration of 
                         popular Bennett Foddy games like Getting Over It.
@@ -55,7 +81,7 @@ function Projects() {
                 />
                 
                 <Project name='Hexatris'
-                    subtitle='Ludum Dare 49 (Unstable)'
+                    subtitle='Ludum Dare (Unstable)'
                     desc={<p>
                         Stack hexagonal shaped blocks on a precarious island. 
                         <hr></hr>                
@@ -65,7 +91,7 @@ function Projects() {
                 />
                 
                 <Project name='Balls in Holes'
-                    subtitle='Kenney Jam 2021 (Rotation)'
+                    subtitle='Kenney Jam (Rotation)'
                     desc={<p>
                         A golf game made exclusively with assets by the host of jam, 
                         Kenney, notable in the community for his high quality free assets.
@@ -73,7 +99,7 @@ function Projects() {
                 />
 
                 <Project name="It's so Amazeing"
-                    subtitle='LowRezJam 2021'
+                    subtitle='LowRezJam'
                     desc={<p>
                         Atmospheric maze game constrained by the 64 x 64 resolution. 
                         <hr></hr>
@@ -84,7 +110,7 @@ function Projects() {
                 />
 
                 <Project name='None of your Zombusiness'
-                    subtitle='Brackeys Jam 2021.1 (Stronger Together)'
+                    subtitle='Brackeys Jam (Stronger Together)'
                     desc={<p>
                         My first game: a 2D top-down shooter, initially intended to 
                         be a dynamic tower-defense game, where the players 
@@ -94,11 +120,11 @@ function Projects() {
                         especially within the confines of a tight deadline.
                     </p>}
                 />
-                
             </ul>
         </div>
-    );
+    )
 }
+
 
 /* Singular project */
 function Project({name, subtitle, desc}) {
@@ -115,4 +141,5 @@ function Project({name, subtitle, desc}) {
     );
 }
 
-export default Projects;
+
+export {Projects, GameJams};

@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client';
 
 import Header from './components/Header/Header';
 import About from './components/About/About';
-import Projects from './components/Project/Project';
+import { Projects, GameJams } from './components/Project/Project';
 import Footer from './components/Footer/Footer';
 
 import './index.css';
@@ -13,8 +13,10 @@ root.render(
     <React.StrictMode>
         <Header/>
         <About/>
+
         <Projects/>
-        <Footer/>
+        <GameJams/>
         
+        <Footer/>
     </React.StrictMode>
 );
