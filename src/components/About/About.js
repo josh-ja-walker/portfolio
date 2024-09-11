@@ -1,5 +1,3 @@
-import LoremIpsum from 'react-lorem-ipsum';
-
 import './About.css'
 import '../../index.css'
 
