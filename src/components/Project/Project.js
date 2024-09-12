@@ -5,7 +5,7 @@ import './Project.css'
 /* List of projects */
 export default function ProjectSection() {
     return (
-        <div className='Section'>
+        <div className='ProjectList Section'>
             <header>Projects</header>
 
             <ul className="List">

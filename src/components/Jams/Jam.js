@@ -5,7 +5,7 @@ import * as submission from './JamData';
 /* List of game jams participated in */
 export default function JamSection() {
     return (
-        <div className='Section'>
+        <div className='Jam Section'>
             <header>Game Jams</header>
 
             <ul className="List">

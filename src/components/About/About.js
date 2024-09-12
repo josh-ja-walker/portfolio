@@ -3,7 +3,7 @@ import '../../index.css'
 
 function About() {
     return (
-        <div id='About' className='Section'>
+        <div className='About Section'>
             <header>About</header>
             <p>
                 Third-year student at Imperial College London, studying MEng Computing. I have 

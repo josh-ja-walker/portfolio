@@ -4,8 +4,8 @@ import ReactDOM from 'react-dom/client';
 import Header from './components/Header/Header';
 import About from './components/About/About';
 
-import ProjectSection from './components/Project/Project';
-import JamSection from './components/Jams/Jam';
+import Projects from './components/Project/Project';
+import Jams from './components/Jams/Jam';
 
 import Footer from './components/Footer/Footer';
 
@@ -17,8 +17,8 @@ root.render(
         <Header/>
         <About/>
 
-        <ProjectSection/>
-        <JamSection/>
+        <Projects/>
+        <Jams/>
         
         <Footer/>
     </React.StrictMode>
