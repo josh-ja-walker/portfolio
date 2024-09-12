@@ -22,3 +22,7 @@ code {
   font-weight: bold;
   text-align: left;
 }
+
+.List {
+  list-style-type: none;
+}

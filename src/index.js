@@ -3,7 +3,10 @@ import ReactDOM from 'react-dom/client';
 
 import Header from './components/Header/Header';
 import About from './components/About/About';
-import { Projects, GameJams } from './components/Project/Project';
+
+import ProjectSection from './components/Project/Project';
+import JamSection from './components/Jams/Jams';
+
 import Footer from './components/Footer/Footer';
 
 import './index.css';
@@ -14,8 +17,8 @@ root.render(
         <Header/>
         <About/>
 
-        <Projects/>
-        <GameJams/>
+        <ProjectSection/>
+        <JamSection/>
         
         <Footer/>
     </React.StrictMode>
