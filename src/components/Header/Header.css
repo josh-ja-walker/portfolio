@@ -9,30 +9,35 @@
 }
 
 img.Profile {
+    aspect-ratio: 1;
     border-radius: 50%;
 
-    aspect-ratio: 1;
-    height: 25%;
+    height: 20%;
     width: auto;
-
-    margin: 15% 7.5% 15% 0;
+    
+    margin: 18% 7.5% 15% 2.5%;
 }
 
 #Bio {
     display: flex;
     flex-direction: column;
     
-    justify-content: center;
-    align-items: center;
+    justify-content: space-around;
+    align-items: start;
     text-align: center;
+
+    width: 70%;
 }
 
 #Bio > header {
     font-size: xx-large;
     font-weight: bolder;
+    margin: 2% 0;
 }
 
 #Bio > p {
     font-weight: bold;
     font-size: medium;
+
+    margin: 0;
 }
