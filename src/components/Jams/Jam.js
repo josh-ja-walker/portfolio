@@ -1,6 +1,6 @@
 import {Project} from '../Project/Project'
 
-import * as submission from './JamsData';
+import * as submission from './JamData';
 
 /* List of game jams participated in */
 export default function JamSection() {
