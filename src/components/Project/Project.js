@@ -20,11 +20,14 @@ export default function ProjectSection() {
 }
 
 /* Singular project */
-export function Project({title, subtitle, desc}) {
+export function Project({title, link, subtitle, desc}) {
     return (
         <li>
             <div className="Project">
-                <header>{title}</header>
+                <header>
+                    <a href={link} target="_blank" rel="noopener noreferrer">{title}</a>
+                </header>
+
                 <div className='ProjectContent'>
                     <div className="ProjectSubtitle">{subtitle}</div>
                     <div className="ProjectDescription">{desc}</div>

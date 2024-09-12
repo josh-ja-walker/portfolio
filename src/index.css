@@ -17,6 +17,18 @@ code {
   monospace;
 }
 
+/* Link formatting */
+a {
+  text-decoration: none;
+  color: inherit;
+  background-color: transparent;
+}
+
+a:hover {
+  text-decoration: underline;
+  text-underline-offset: 1pt;
+}
+
 /* List without bullets */
 .List {
   list-style-type: none;
