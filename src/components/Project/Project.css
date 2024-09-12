@@ -12,21 +12,15 @@
     flex-shrink: 0;
     
     color: darkgray;
-    text-align: justify;
     
-    width: 40%;
-    margin-right: 0;
+    width: 30%;
+    margin-right: 10%;
 }
-
 
 .ProjectSubtitle {
     font-weight: bold;
 }
 
-
-.ProjectDescription > * {
-    text-align: left;
-}
 
 .ProjectDescription > p {
     margin: 0;

@@ -1,12 +1,15 @@
 body {
-  width: 35vw;
-  margin: auto;
   font-size: 0.9rem;
+
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
+
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  width: 35vw;
+  margin: auto;
 }
 
 code {
@@ -14,6 +17,14 @@ code {
   monospace;
 }
 
+/* List without bullets */
+.List {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* Sections */
 .Section {
   margin-bottom: 8vh;
 }
@@ -21,8 +32,4 @@ code {
 .Section > header {
   font-weight: bold;
   text-align: left;
-}
-
-.List {
-  list-style-type: none;
 }

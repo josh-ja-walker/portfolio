@@ -1,6 +1,6 @@
 import * as all_projects from './ProjectData';
-
 import './Project.css'
+import '../../index'
 
 /* List of projects */
 export default function ProjectSection() {
