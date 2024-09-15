@@ -3,10 +3,10 @@ import './Header.css'
 
 function Header() {
     return (
-        <div id="Header">
-            <img className="Profile" src={pfp} alt={"Profile"}/>
+        <div className='header row'>
+            <img className='profile' src={pfp} alt={'Profile'}/>
             
-            <div id="Bio"> 
+            <div className='col bio'> 
                 <header>Joshua Walker</header>
                 <p>Solo software and games developer</p>
             </div>

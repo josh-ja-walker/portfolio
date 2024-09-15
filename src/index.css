@@ -29,19 +29,37 @@ a:hover {
   text-underline-offset: 1pt;
 }
 
+
 /* List without bullets */
-.List {
+.list {
   list-style-type: none;
   margin: 0;
   padding: 0;
 }
 
+
 /* Sections */
-.Section {
+.section {
   margin-bottom: 8vh;
 }
 
-.Section > header {
+.section > header {
   font-weight: bold;
   text-align: left;
+}
+
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.col {
+  display: flex;
+  flex-direction: column;
+}
+
+.center {
+  justify-content: center;
+  align-items: center;
 }

@@ -1,6 +1,4 @@
-.Project { 
-    display: flex;
-    flex-direction: row;
+.project { 
     justify-content: start;
     align-content: stretch;
 
@@ -8,7 +6,7 @@
     margin-bottom: 5vh;
 }
 
-.Project > header {
+.project > header {
     flex-shrink: 0;
     
     color: darkgray;
@@ -17,16 +15,15 @@
     margin-right: 10%;
 }
 
-.ProjectSubtitle {
+.project .subtitle {
     font-weight: bold;
 }
 
-
-.ProjectDescription > p {
+.project .description > p {
     margin: 0;
 }
 
-.ProjectDescription > p > hr {
+.project .description > p > hr {
     visibility: hidden;
 }
 

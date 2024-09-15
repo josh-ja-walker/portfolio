@@ -5,10 +5,10 @@ import '../../index'
 /* List of projects */
 export default function ProjectSection() {
     return (
-        <div className='ProjectList Section'>
+        <div className='projects section'>
             <header>Projects</header>
 
-            <ul className="List">
+            <ul className='list'>
                 <Project {...all_projects.sorts_TUI}/>
                 <Project {...all_projects.weather_wallpaper}/>
                 <Project {...all_projects.origame}/>
@@ -23,14 +23,14 @@ export default function ProjectSection() {
 export function Project({title, link, subtitle, desc}) {
     return (
         <li>
-            <div className="Project">
+            <div className='project row'>
                 <header>
                     <a href={link} target="_blank" rel="noopener noreferrer">{title}</a>
                 </header>
 
-                <div className='ProjectContent'>
-                    <div className="ProjectSubtitle">{subtitle}</div>
-                    <div className="ProjectDescription">{desc}</div>
+                <div className='content'>
+                    <div className='subtitle'>{subtitle}</div>
+                    <div className='description'>{desc}</div>
                 </div>
             </div>
         </li>

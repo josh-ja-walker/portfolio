@@ -1,14 +1,11 @@
-#Header {
-    display: flex;
-    flex-direction: row;
-    
+.header {
     justify-content: start;
     align-items: center;
 
     height: 40vh;
 }
 
-img.Profile {
+img.profile {
     aspect-ratio: 1;
     border-radius: 50%;
 
@@ -18,10 +15,7 @@ img.Profile {
     margin: 18% 7.5% 15% 2.5%;
 }
 
-#Bio {
-    display: flex;
-    flex-direction: column;
-    
+.bio {
     justify-content: space-around;
     align-items: start;
     text-align: center;
@@ -29,13 +23,13 @@ img.Profile {
     width: 70%;
 }
 
-#Bio > header {
+.bio > header {
     font-size: xx-large;
     font-weight: bolder;
     margin: 2% 0;
 }
 
-#Bio > p {
+.bio > p {
     font-weight: bold;
     font-size: medium;
 

@@ -5,10 +5,10 @@ import * as submission from './JamData';
 /* List of game jams participated in */
 export default function JamSection() {
     return (
-        <div className='Jam Section'>
+        <div className='jams section'>
             <header>Game Jams</header>
 
-            <ul className="List">
+            <ul className='list'>
                 <JamSubmission {...submission.painball}/>
                 <JamSubmission {...submission.hexatris}/>
                 <JamSubmission {...submission.balls_in_holes}/>
@@ -23,7 +23,9 @@ export default function JamSection() {
 function JamSubmission(props) {
     return (
         <li>
-            <Project {...props}/>
+            <div className='jam'>
+                <Project {...props}/>
+            </div>
         </li>
     );
 }
