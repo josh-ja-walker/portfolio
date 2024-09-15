@@ -1,6 +1,9 @@
 import * as all_projects from './ProjectData';
+import { Link } from '../Component';
+
 import './Project.css'
-import '../../index'
+import '../../index.css'
+
 
 /* List of projects */
 export default function ProjectSection() {
@@ -24,8 +27,8 @@ export function Project({title, link, subtitle, desc}) {
     return (
         <li>
             <div className='project row'>
-                <header>
-                    <a href={link} target="_blank" rel="noopener noreferrer">{title}</a>
+                <header className='col'>
+                    <Link title={title} link={link}/>
                 </header>
 
                 <div className='content'>
