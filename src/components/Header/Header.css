@@ -5,10 +5,7 @@
     height: 40vh;
 }
 
-img.profile {
-    aspect-ratio: 1;
-    border-radius: 50%;
-
+.header img.profile {
     height: 20%;
     width: auto;
     
