@@ -1,5 +1,5 @@
 import * as all_projects from './ProjectData';
-import { TfiNewWindow } from 'react-icons/tfi';
+import { PiArrowUpRight } from "react-icons/pi";
 
 import './Project.css'
 import '../../index.css'
@@ -25,7 +25,10 @@ export default function ProjectSection() {
 
 function ProjectLink(link) {
     return (
-        <div className='link'>{link} <TfiNewWindow size={8}/></div>
+        <div className='link'>
+            {link}
+            <PiArrowUpRight className='icon'/>
+        </div>
     );
 }
 
@@ -44,7 +47,7 @@ export function Project({title, links, image, subtitle, desc}) {
     return (
         <li>
             <div className='project row'>
-                <div className='project left'>
+                <div className='left'>
                     <header>{title}</header>
                     <div className='links'>{linkItems}</div>
                     <ProjectImage src={image} alt={'TODO'}/>
@@ -52,7 +55,6 @@ export function Project({title, links, image, subtitle, desc}) {
 
                 <div>
                     <div className='subtitle'>{subtitle}</div>
-                    <hr color='lightgray'></hr>
                     <div className='description'>{desc}</div>
                 </div>
             </div>

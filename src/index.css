@@ -17,6 +17,13 @@ code {
   monospace;
 }
 
+:root {
+  --header-color: black;
+  --subtitle-color: dimgray;
+  --main-color: darkgray;
+  --sub-color: silver;
+}
+
 
 /* Sections */
 .section {
@@ -26,6 +33,18 @@ code {
 .section > header {
   font-weight: bold;
   text-align: left;
+}
+
+header {
+  color: var(--header-color);
+}
+
+.subtitle {
+  color: var(--subtitle-color);  
+}
+
+p {
+  color: var(--main-color);
 }
 
 
@@ -58,7 +77,6 @@ code {
 a {
   text-decoration: none;
   color: inherit;
-  background-color: transparent;
 }
 
 a:hover {

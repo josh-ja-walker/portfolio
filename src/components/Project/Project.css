@@ -7,20 +7,15 @@
 }
 
 /* Left column of project */
-.project.left {
+.project .left {
     flex-shrink: 0;
 
     width: 35%;
-    
-    margin: 0;
     margin-right: 7.5%;
 }
 
-.project > header {
-    color: black;
-    /* color: darkgray; */
+.project .left > header {
     font-weight: bold;
-    margin-top: 0;
 }
 
 
@@ -36,21 +31,17 @@
 
 
 /* Project links */
-.project .links .link {
-    color: darkgray;
+.project .link {
+    color: var(--sub-color);
     font-size: small;
+}
+
+.project .link > .icon {
+    vertical-align: text-bottom;
 }
 
 
 /* Right column of project */
-.project .subtitle {
-    font-weight: bold;
-}
-
-.project .description > p {
-    margin: 0;
-}
-
 .project .description > p > hr {
     visibility: hidden;
 }
