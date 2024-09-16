@@ -1,4 +1,5 @@
 import { Link } from '../Component';
+import quick_sort from './quick_sort.png';
 
 const ratatui = <Link text={'ratatui'} link={'https://crates.io/crates/ratatui'}/>;
 const clap = <Link text={'CLAP'} link={'https://crates.io/crates/clap'}/>;
@@ -8,6 +9,7 @@ export const sortsTUI = {
     links: [
         <Link text='GitHub' link={'https://github.com/josh-ja-walker/sorts_tui'}/>,
     ],
+    image: quick_sort,
     subtitle: 'In-terminal sorting algorithms simulator',
     desc: 
         <p>
@@ -32,6 +34,7 @@ const weather_api = <Link title={"weatherapi.com"} link={"https://weatherapi.com
 export const weather_wallpaper = { 
     title: 'Weather Wallpaper',
     links: [<Link text='GitHub' link={'https://github.com/josh-ja-walker/weather_wallpaper'}/>],
+    image: null,
     subtitle: 'Weather-dependent desktop wallpaper engine',
     desc:
     <p>
@@ -73,6 +76,7 @@ export const bogosort = {
         <Link text={'Website'} link={'https://josh-ja-walker.github.io/Bogosort/'}/>,
         <Link text={'GitHub'} link={'https://github.com/josh-ja-walker/Bogosort'}/>,
     ],
+    image: null,
     subtitle: 'Sorting visualiser website',
     desc:
         <p>
@@ -83,6 +87,7 @@ export const bogosort = {
 export const portfolio = {
     title: 'Portfolio',
     links: [<Link text={'GitHub'} link={'https://github.com/josh-ja-walker/portfolio'}/>],
+    image: null,
     subtitle: "Personal professional portfolio",
     desc:
         <p>

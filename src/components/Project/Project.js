@@ -26,19 +26,28 @@ export default function ProjectSection() {
 function ProjectLink(link) {
     return (
         <div className='link'>{link} <TfiNewWindow size={8}/></div>
-    )
+    );
+}
+
+function ProjectImage({src, alt}) {
+    if (src == null) {
+        return null;
+    }
+
+    return <img src={src} alt={alt}/>;
 }
 
 /* Singular project */
-export function Project({title, links, subtitle, desc}) {
+export function Project({title, links, image, subtitle, desc}) {
     const linkItems = links.map(link => ProjectLink(link));
     
     return (
         <li>
             <div className='project row'>
                 <div className='project left'>
-                    <header className='col'>{title}</header>
+                    <header>{title}</header>
                     <div className='links'>{linkItems}</div>
+                    <ProjectImage src={image} alt={'TODO'}/>
                 </div>
 
                 <div>

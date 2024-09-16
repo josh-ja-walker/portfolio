@@ -7,6 +7,7 @@ export const painball = {
         <Link text={'itch.io'} link={'https://joshwalker.itch.io/painball'}/>,
         <Link text={'Ludwig Jam'} link={'https://itch.io/jam/ludwig-2021/rate/1248951'}/>
     ],
+    image: null,
     subtitle: 'Ludwig Jam (Foddian)',
     desc: 
         <p>
@@ -25,6 +26,7 @@ export const hexatris = {
         <Link text={'itch.io'} link={'https://joshwalker.itch.io/hexatris'}/>,
         <Link text={'Ludum Dare'} link={'https://ldjam.com/events/ludum-dare/49/hexatris'}/>
     ],
+    image: null,
     subtitle: 'Ludum Dare (Unstable)',
     desc: 
         <p>
@@ -41,6 +43,7 @@ export const balls_in_holes = {
         <Link text={'itch.io'} link={'https://joshwalker.itch.io/ballsinholes'}/>,
         <Link text={'Kenney Jam'} link={'https://itch.io/jam/kenney-jam-2021'}/>,
     ],
+    image: null,
     subtitle: 'Kenney Jam (Rotation)',
     desc: 
         <p>
@@ -55,6 +58,7 @@ export const amazeing = {
         <Link text={"itch.io"} link={'https://joshwalker.itch.io'}/>,
         <Link text={"LowRezJam"} link={'https://itch.io/jam/lowrezjam-2021'}/>,
     ],
+    image: null,
     subtitle: 'LowRezJam',
     desc: 
         <p>
@@ -72,6 +76,7 @@ export const zombusiness = {
         <Link text={'itch.io'} link={'https://joshwalker.itch.io/none-of-your-zombusiness'}/>,
         <Link text={'Brackeys Jam'} link={'https://itch.io/jam/brackeys-5/rate/928787'}/>,
     ],
+    image: null,
     subtitle: 'Brackeys Jam (Stronger Together)',
     desc: 
         <p>

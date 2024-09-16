@@ -6,9 +6,10 @@
     margin-bottom: 5vh;
 }
 
+/* Left column of project */
 .project.left {
     flex-shrink: 0;
-    
+
     width: 30%;
     
     margin: 0;
@@ -21,11 +22,30 @@
     margin-top: 0;
 }
 
-.project .link {
+
+/* Project thumbnail */
+.project img {
+    margin-top: 15%;
+    
+    width: 100%;
+    height: auto;
+
+    filter: none;
+}
+
+.project img:hover {
+    filter: saturate(2)
+}
+
+
+/* Project links */
+.project .links .link {
     color: darkgray;
     font-size: small;
 }
 
+
+/* Right column of project */
 .project .subtitle {
     font-weight: bold;
 }
