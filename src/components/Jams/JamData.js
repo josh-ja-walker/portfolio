@@ -1,5 +1,7 @@
 import { Link } from '../Component';
 
+import painball_img from './Pictures/painball.png';
+
 export const painball = {
     title: 'Painball',
     links: [
@@ -7,7 +9,7 @@ export const painball = {
         <Link text={'itch.io'} link={'https://joshwalker.itch.io/painball'}/>,
         <Link text={'Ludwig Jam'} link={'https://itch.io/jam/ludwig-2021/rate/1248951'}/>
     ],
-    image: null,
+    image: painball_img,
     subtitle: 'Ludwig Jam (Foddian)',
     desc: 
         <p>

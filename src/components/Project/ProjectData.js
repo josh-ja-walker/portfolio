@@ -1,15 +1,17 @@
 import { Link } from '../Component';
-import quick_sort from './quick_sort.png';
+
+import sort_img from './Pictures/sorts_tui.png';
+import origame_img from './Pictures/origame.png';
+import weather_wallpaper_img from './Pictures/weather_wallpaper.png';
+import bogosort_img from './Pictures/bogosort.png';
 
 const ratatui = <Link text={'ratatui'} link={'https://crates.io/crates/ratatui'}/>;
 const clap = <Link text={'CLAP'} link={'https://crates.io/crates/clap'}/>;
 
 export const sortsTUI = { 
     title: 'Sorts TUI',
-    links: [
-        <Link text='GitHub' link={'https://github.com/josh-ja-walker/sorts_tui'}/>,
-    ],
-    image: quick_sort,
+    links: [<Link text='GitHub' link={'https://github.com/josh-ja-walker/sorts_tui'}/>],
+    image: sort_img,
     subtitle: 'In-terminal sorting algorithms simulator',
     desc: 
         <p>
@@ -34,7 +36,7 @@ const weather_api = <Link title={"weatherapi.com"} link={"https://weatherapi.com
 export const weather_wallpaper = { 
     title: 'Weather Wallpaper',
     links: [<Link text='GitHub' link={'https://github.com/josh-ja-walker/weather_wallpaper'}/>],
-    image: null,
+    image: weather_wallpaper_img,
     subtitle: 'Weather-dependent desktop wallpaper engine',
     desc:
     <p>
@@ -53,6 +55,7 @@ export const origame = {
         <Link text={'GitHub'} link={'https://github.com/josh-ja-walker/Origame'}/>,
         <Link text={'itch.io'} link={'https://joshwalker.itch.io/origame'}/>
     ],
+    image: origame_img,
     subtitle: '2D puzzle-platformer about folding paper',
     desc: 
         <p>
@@ -76,7 +79,7 @@ export const bogosort = {
         <Link text={'Website'} link={'https://josh-ja-walker.github.io/Bogosort/'}/>,
         <Link text={'GitHub'} link={'https://github.com/josh-ja-walker/Bogosort'}/>,
     ],
-    image: null,
+    image: bogosort_img,
     subtitle: 'Sorting visualiser website',
     desc:
         <p>

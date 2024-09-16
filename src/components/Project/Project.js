@@ -52,6 +52,7 @@ export function Project({title, links, image, subtitle, desc}) {
 
                 <div>
                     <div className='subtitle'>{subtitle}</div>
+                    <hr color='lightgray'></hr>
                     <div className='description'>{desc}</div>
                 </div>
             </div>

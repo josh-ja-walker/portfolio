@@ -10,14 +10,15 @@
 .project.left {
     flex-shrink: 0;
 
-    width: 30%;
+    width: 35%;
     
     margin: 0;
-    margin-right: 10%;
+    margin-right: 7.5%;
 }
 
 .project > header {
     color: black;
+    /* color: darkgray; */
     font-weight: bold;
     margin-top: 0;
 }
@@ -25,16 +26,12 @@
 
 /* Project thumbnail */
 .project img {
-    margin-top: 15%;
+    margin-top: 5%;
     
     width: 100%;
     height: auto;
 
     filter: none;
-}
-
-.project img:hover {
-    filter: saturate(2)
 }
 
 
