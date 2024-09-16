@@ -17,31 +17,6 @@ code {
   monospace;
 }
 
-/* Profile photo */
-img.profile {
-  aspect-ratio: 1;
-  border-radius: 50%;
-}
-
-
-/* Link formatting */
-a {
-  text-decoration: none;
-  color: inherit;
-  background-color: transparent;
-}
-
-a:hover {
-  text-decoration: underline;
-  text-underline-offset: 1pt;
-}
-
-/* List without bullets */
-.no-bull-list {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
 
 /* Sections */
 .section {
@@ -52,6 +27,7 @@ a:hover {
   font-weight: bold;
   text-align: left;
 }
+
 
 /* Flex containers */
 .row {
@@ -68,3 +44,25 @@ a:hover {
   justify-content: center;
   align-items: center;
 }
+
+
+/* List without bullets */
+.no-bull-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+
+/* Link formatting */
+a {
+  text-decoration: none;
+  color: inherit;
+  background-color: transparent;
+}
+
+a:hover {
+  text-decoration: underline;
+  text-underline-offset: 1pt;
+}
+
