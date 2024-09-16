@@ -37,7 +37,7 @@ a:hover {
 }
 
 /* List without bullets */
-.list {
+.no-bull-list {
   list-style-type: none;
   margin: 0;
   padding: 0;

@@ -8,7 +8,7 @@ export default function JamSection() {
         <div className='jams section'>
             <header>Game Jams</header>
 
-            <ul className='list'>
+            <ul className='no-bull-list'>
                 <JamSubmission {...submission.painball}/>
                 <JamSubmission {...submission.hexatris}/>
                 <JamSubmission {...submission.balls_in_holes}/>

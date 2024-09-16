@@ -6,13 +6,24 @@
     margin-bottom: 5vh;
 }
 
-.project > header {
+.project.left {
     flex-shrink: 0;
     
-    color: darkgray;
-    
     width: 30%;
+    
+    margin: 0;
     margin-right: 10%;
+}
+
+.project > header {
+    color: black;
+    font-weight: bold;
+    margin-top: 0;
+}
+
+.project .link {
+    color: darkgray;
+    font-size: small;
 }
 
 .project .subtitle {
@@ -26,4 +37,3 @@
 .project .description > p > hr {
     visibility: hidden;
 }
-

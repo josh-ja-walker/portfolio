@@ -18,6 +18,11 @@ root.render(
         <About/>
 
         <Projects/>
+        
+        <br></br>
+        <hr color='lightgrey'></hr>
+        <br></br>
+        
         <Jams/>
         
         <Footer/>

@@ -1,6 +1,6 @@
 
-export function Link({title, link}) {
+export function Link({text, link}) {
     return (
-        <a href={link} target="_blank" rel="noopener noreferrer">{title}</a>
+        <a style={{'color': 'darkgrey'}} href={link} target="_blank" rel="noopener noreferrer">{text}</a>
     );
 }
