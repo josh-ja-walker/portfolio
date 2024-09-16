@@ -27,6 +27,8 @@
 }
 
 .bio > p {
+    color: var(--header-color);
+    
     font-weight: bold;
     font-size: medium;
 
