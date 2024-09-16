@@ -1,9 +1,9 @@
 import { Link } from '../Component';
 
 import sort_img from './Pictures/sorts_tui.png';
-import origame_img from './Pictures/origame.png';
+// import origame_img from './Pictures/origame.png';
 import weather_wallpaper_img from './Pictures/weather_wallpaper.png';
-import bogosort_img from './Pictures/bogosort.png';
+// import bogosort_img from './Pictures/bogosort.png';
 
 const ratatui = <Link text={'ratatui'} link={'https://crates.io/crates/ratatui'}/>;
 const clap = <Link text={'CLAP'} link={'https://crates.io/crates/clap'}/>;
@@ -55,7 +55,7 @@ export const origame = {
         <Link text={'GitHub'} link={'https://github.com/josh-ja-walker/Origame'}/>,
         <Link text={'itch.io'} link={'https://joshwalker.itch.io/origame'}/>
     ],
-    image: origame_img,
+    // image: origame_img,
     subtitle: '2D puzzle-platformer about folding paper',
     desc: 
         <p>
@@ -79,7 +79,7 @@ export const bogosort = {
         <Link text={'Website'} link={'https://josh-ja-walker.github.io/Bogosort/'}/>,
         <Link text={'GitHub'} link={'https://github.com/josh-ja-walker/Bogosort'}/>,
     ],
-    image: bogosort_img,
+    // image: bogosort_img,
     subtitle: 'Sorting visualiser website',
     desc:
         <p>

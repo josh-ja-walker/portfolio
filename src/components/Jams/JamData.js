@@ -9,7 +9,7 @@ export const painball = {
         <Link text={'itch.io'} link={'https://joshwalker.itch.io/painball'}/>,
         <Link text={'Ludwig Jam'} link={'https://itch.io/jam/ludwig-2021/rate/1248951'}/>
     ],
-    image: painball_img,
+    // image: painball_img,
     subtitle: 'Ludwig Jam (Foddian)',
     desc: 
         <p>
