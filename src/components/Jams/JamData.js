@@ -1,6 +1,6 @@
 import { Link } from '../Component';
 
-import painball_img from './Pictures/painball.png';
+// import painball_img from './Pictures/painball.png';
 
 export const painball = {
     title: 'Painball',
