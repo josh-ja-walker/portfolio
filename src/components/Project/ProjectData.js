@@ -1,6 +1,6 @@
 import { Link } from '../Component';
 
-import sort_img from './Pictures/sorts_tui-2.png';
+import sort_img from './Pictures/sorts_tui-1.png';
 import weather_wallpaper_img from './Pictures/weather_wallpaper-1.png';
 
 const ratatui = <Link text={'ratatui'} link={'https://crates.io/crates/ratatui'}/>;
