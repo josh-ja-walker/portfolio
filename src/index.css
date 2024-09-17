@@ -22,10 +22,13 @@ code {
 
 :root {
   --header-color: white;
-  --subtitle-color: gray;
-  --main-color: silver;
-  --sub-color: dimgray;
-
+  --subtitle-color: silver;
+  --main-color: #a8a8a8;
+  --sub-color: gray;
+  /* --header-color: red;
+  --subtitle-color: blue;
+  --main-color: green;
+  --sub-color: purple; */
 }
 
 
