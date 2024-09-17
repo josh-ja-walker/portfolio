@@ -8,9 +8,9 @@ const clap = <Link text={'CLAP'} link={'https://crates.io/crates/clap'}/>;
 
 export const sortsTUI = { 
     title: 'Sorts TUI',
-    links: [<Link text='GitHub' link={'https://github.com/josh-ja-walker/sorts_tui'}/>],
-    image: sort_img,
     subtitle: 'In-terminal sorting algorithms simulator',
+    image: sort_img,
+    links: [<Link text='GitHub' link={'https://github.com/josh-ja-walker/sorts_tui'}/>],
     desc: 
         <p>
             Simulates sorting algorithms, rendering in terminal using {ratatui} crate. 
@@ -24,9 +24,9 @@ const weather_api = <Link text={"weatherapi.com"} link={"https://weatherapi.com"
 
 export const weather_wallpaper = { 
     title: 'Weather Wallpaper',
-    links: [<Link text='GitHub' link={'https://github.com/josh-ja-walker/weather_wallpaper'}/>],
-    image: weather_wallpaper_img,
     subtitle: 'Weather-dependent desktop wallpaper engine',
+    image: weather_wallpaper_img,
+    links: [<Link text='GitHub' link={'https://github.com/josh-ja-walker/weather_wallpaper'}/>],
     desc:
         <p>
             Dynamically changes desktop wallpaper to reflect local weather.
@@ -36,14 +36,15 @@ export const weather_wallpaper = {
         </p>
 };  
 
+
 export const origame = { 
     title: 'Origame',
+    subtitle: '2D puzzle-platformer about folding paper',
+    image: null,
     links: [
         <Link text={'GitHub'} link={'https://github.com/josh-ja-walker/Origame'}/>,
         <Link text={'itch.io'} link={'https://joshwalker.itch.io/origame'}/>
     ],
-    // image: origame_img,
-    subtitle: '2D puzzle-platformer about folding paper',
     desc: 
         <p>
             Fold platforms in order to solve puzzles and progress through levels. 
@@ -52,14 +53,15 @@ export const origame = {
         </p>
 };  
 
+
 export const bogosort = {
     title: 'Bogosort',
+    subtitle: 'Sorting visualiser website',
+    image: null,
     links: [
         <Link text={'Website'} link={'https://josh-ja-walker.github.io/Bogosort/'}/>,
         <Link text={'GitHub'} link={'https://github.com/josh-ja-walker/Bogosort'}/>,
     ],
-    // image: bogosort_img,
-    subtitle: 'Sorting visualiser website',
     desc:
         <p>
             Website simulation of bogosort; bubble sort 
@@ -67,10 +69,11 @@ export const bogosort = {
         </p>
 }; 
 
+
 export const portfolio = {
     title: 'Portfolio',
-    links: [<Link text={'GitHub'} link={'https://github.com/josh-ja-walker/portfolio'}/>],
-    image: null,
     subtitle: "Personal professional portfolio",
+    image: null,
+    links: [<Link text={'GitHub'} link={'https://github.com/josh-ja-walker/portfolio'}/>],
     desc: <p>The website you are currently on</p>
 }; 
