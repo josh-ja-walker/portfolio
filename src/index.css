@@ -10,6 +10,8 @@ body {
 
   width: 37.5vw;
   margin: auto;
+
+  background-color: #191919;
 }
 
 code {
@@ -18,10 +20,14 @@ code {
 }
 
 :root {
-  --header-color: black;
+  --header-color: white;
   --subtitle-color: dimgray;
   --main-color: darkgray;
   --sub-color: silver;
+  /* --header-color: red;
+  --subtitle-color: blue;
+  --main-color: green;
+  --sub-color: purple; */
 }
 
 
