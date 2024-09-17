@@ -1,40 +1,39 @@
 import { Link } from '../Component';
 
-import sort_img from './Pictures/sorts_tui-1.png';
-import weather_wallpaper_img from './Pictures/weather_wallpaper-1.png';
+// import sort_img from './Pictures/sorts_tui-1.png';
+// import weather_wallpaper_img from './Pictures/weather_wallpaper-1.png';
 
-const ratatui = <Link text={'ratatui'} link={'https://crates.io/crates/ratatui'}/>;
+const ratatui = <Link text={'Ratatui.rs'} link={'https://crates.io/crates/ratatui'}/>;
 const clap = <Link text={'CLAP'} link={'https://crates.io/crates/clap'}/>;
 
 export const sortsTUI = { 
     title: 'Sorts TUI',
     subtitle: 'In-terminal sorting algorithms simulator',
-    image: sort_img,
-    langs: ['Rust', 'Ratatui.rs', 'CLAP'],
+    image: null,
+    langs: ['Rust', ratatui, clap],
     links: [<Link text='GitHub' link={'https://github.com/josh-ja-walker/sorts_tui'}/>],
     desc: 
         <p>
-            Simulates sorting algorithms, rendering in terminal using {ratatui} crate. 
+            Simulates sorting algorithms on a bar chart, rendering each step in terminal.
             <br></br>
-            Provides terminal command line interface implemented using {clap} crate for ease of use.
+            Provides terminal command line interface for ease of use.
         </p>
 }; 
 
 
-const weather_api = <Link text={"weatherapi.com"} link={"https://weatherapi.com"}/>;
+const weather_api = <Link text={'WeatherAPI'} link={'https://weatherapi.com'}/>;
 
 export const weather_wallpaper = { 
     title: 'Weather Wallpaper',
     subtitle: 'Weather-dependent desktop wallpaper engine',
-    image: weather_wallpaper_img,
-    langs: ['Rust', 'CLAP', 'WeatherAPI'],
+    image: null,
+    langs: ['Rust', clap, weather_api],
     links: [<Link text='GitHub' link={'https://github.com/josh-ja-walker/weather_wallpaper'}/>],
     desc:
         <p>
             Dynamically changes desktop wallpaper to reflect local weather.
             <br></br>
-            Provides interactive menu to set weather depicted in wallpapers and
-            matches with data retrieved from {weather_api}
+            Provides interactive menu to set tags representing the weather depicted in wallpapers.
         </p>
 };  
 
