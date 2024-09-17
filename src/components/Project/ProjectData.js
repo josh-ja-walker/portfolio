@@ -1,8 +1,5 @@
 import { Link } from '../Component';
 
-// import sort_img from './Pictures/sorts_tui-1.png';
-// import weather_wallpaper_img from './Pictures/weather_wallpaper-1.png';
-
 const ratatui = <Link text={'Ratatui.rs'} link={'https://crates.io/crates/ratatui'}/>;
 const clap = <Link text={'CLAP'} link={'https://crates.io/crates/clap'}/>;
 
@@ -21,13 +18,13 @@ export const sortsTUI = {
 }; 
 
 
-const weather_api = <Link text={'WeatherAPI'} link={'https://weatherapi.com'}/>;
+const weather_api = <Link text={'WeatherAPI'} link={'https://www.weatherapi.com'}/>;
 
 export const weather_wallpaper = { 
     title: 'Weather Wallpaper',
     subtitle: 'Weather-dependent desktop wallpaper engine',
     image: null,
-    langs: ['Rust', clap, weather_api],
+    langs: ['Rust', weather_api, clap],
     links: [<Link text='GitHub' link={'https://github.com/josh-ja-walker/weather_wallpaper'}/>],
     desc:
         <p>

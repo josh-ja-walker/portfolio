@@ -22,24 +22,6 @@ export default function ProjectSection() {
     );
 }
 
-
-function ProjectLink(link) {
-    return (
-        <div className='link'>
-            {link}
-            <PiArrowUpRight className='icon'/>
-        </div>
-    );
-}
-
-function ProjectImage({src, alt}) {
-    if (src == null) {
-        return null;
-    }
-
-    return <img src={src} alt={alt}/>;
-}
-
 /* Singular project */
 export function Project({title, subtitle, image, langs, links, desc}) {
     const linkItems = links.map(link => ProjectLink(link));
@@ -62,4 +44,21 @@ export function Project({title, subtitle, image, langs, links, desc}) {
             </div>
         </li>
     );
+}
+
+function ProjectLink(link) {
+    return (
+        <div className='link'>
+            {link}
+            <PiArrowUpRight className='icon'/>
+        </div>
+    );
+}
+
+function ProjectImage({src, alt}) {
+    if (src == null) {
+        return null;
+    }
+
+    return <img src={src} alt={alt}/>;
 }
