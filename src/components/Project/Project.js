@@ -57,7 +57,7 @@ export function Project({title, subtitle, image, langs, links, desc}) {
                 <div>
                     <div className='subtitle'>{subtitle}</div>
                     <div className='description'>{desc}</div>
-                    <ul className='inline-list'>{langItems}<li/></ul>
+                    <ul className='inline-list'>{langItems}</ul>
                 </div>
             </div>
         </li>
