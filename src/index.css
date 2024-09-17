@@ -11,6 +11,7 @@ body {
   width: 37.5vw;
   margin: auto;
 
+  color: var(--main-color);
   background-color: #191919;
 }
 
@@ -24,10 +25,6 @@ code {
   --subtitle-color: dimgray;
   --main-color: darkgray;
   --sub-color: silver;
-  /* --header-color: red;
-  --subtitle-color: blue;
-  --main-color: green;
-  --sub-color: purple; */
 }
 
 

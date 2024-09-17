@@ -45,3 +45,17 @@
 .project .description > p > hr {
     visibility: hidden;
 }
+
+/* Inline list of languages/technologies used */
+.project .inline-list {
+    list-style: disc;
+}
+
+.project .inline-list > li {
+    float: left;
+
+    color: var(--sub-color);
+
+    margin: 0;
+    margin-right: 20pt;
+}

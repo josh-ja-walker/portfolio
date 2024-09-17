@@ -10,6 +10,7 @@ export const sortsTUI = {
     title: 'Sorts TUI',
     subtitle: 'In-terminal sorting algorithms simulator',
     image: sort_img,
+    langs: ['Rust', 'Ratatui.rs', 'CLAP'],
     links: [<Link text='GitHub' link={'https://github.com/josh-ja-walker/sorts_tui'}/>],
     desc: 
         <p>
@@ -26,6 +27,7 @@ export const weather_wallpaper = {
     title: 'Weather Wallpaper',
     subtitle: 'Weather-dependent desktop wallpaper engine',
     image: weather_wallpaper_img,
+    langs: ['Rust', 'CLAP', 'WeatherAPI'],
     links: [<Link text='GitHub' link={'https://github.com/josh-ja-walker/weather_wallpaper'}/>],
     desc:
         <p>
@@ -41,6 +43,7 @@ export const origame = {
     title: 'Origame',
     subtitle: '2D puzzle-platformer about folding paper',
     image: null,
+    langs: ['Unity', 'C#'],
     links: [
         <Link text={'GitHub'} link={'https://github.com/josh-ja-walker/Origame'}/>,
         <Link text={'itch.io'} link={'https://joshwalker.itch.io/origame'}/>
@@ -58,6 +61,7 @@ export const bogosort = {
     title: 'Bogosort',
     subtitle: 'Sorting visualiser website',
     image: null,
+    langs: ['HTML', 'CSS', 'JS'],
     links: [
         <Link text={'Website'} link={'https://josh-ja-walker.github.io/Bogosort/'}/>,
         <Link text={'GitHub'} link={'https://github.com/josh-ja-walker/Bogosort'}/>,
@@ -74,6 +78,7 @@ export const portfolio = {
     title: 'Portfolio',
     subtitle: "Personal professional portfolio",
     image: null,
+    langs: ['ReactJS', 'HTML', 'CSS'],
     links: [<Link text={'GitHub'} link={'https://github.com/josh-ja-walker/portfolio'}/>],
     desc: <p>The website you are currently on</p>
 }; 

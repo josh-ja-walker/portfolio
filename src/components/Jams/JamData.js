@@ -5,6 +5,7 @@ export const painball = {
     title: 'Painball',
     subtitle: 'Ludwig Jam (Foddian)',
     image: null,
+    langs: ['Unity', 'C#'],
     links: [
         <Link text={'GitHub'} link={'https://github.com/josh-ja-walker/Painball'}/>,
         <Link text={'itch.io'} link={'https://joshwalker.itch.io/painball'}/>,
@@ -23,6 +24,7 @@ export const hexatris = {
     title: 'Hexatris',
     subtitle: 'Ludum Dare (Unstable)',
     image: null,
+    langs: ['Unity', 'C#'],
     links: [
         <Link text={'GitHub'} link={'https://github.com/josh-ja-walker/hexatris'}/>,
         <Link text={'itch.io'} link={'https://joshwalker.itch.io/hexatris'}/>,
@@ -42,6 +44,7 @@ export const balls_in_holes = {
     title: 'Balls in Holes',
     subtitle: 'Kenney Jam (Rotation)',
     image: null,
+    langs: ['Unity', 'C#'],
     links: [
         <Link text={'itch.io'} link={'https://joshwalker.itch.io/ballsinholes'}/>,
         <Link text={'Kenney Jam'} link={'https://itch.io/jam/kenney-jam-2021'}/>,
@@ -58,6 +61,7 @@ export const amazeing = {
     title: "It's so Amazeing",
     subtitle: 'LowRezJam',
     image: null,
+    langs: ['Unity', 'C#'],
     links: [
         <Link text={"itch.io"} link={'https://joshwalker.itch.io'}/>,
         <Link text={"LowRezJam"} link={'https://itch.io/jam/lowrezjam-2021'}/>,
@@ -70,6 +74,7 @@ export const zombusiness = {
     title: 'None of your Zombusiness',
     subtitle: 'Brackeys Jam (Stronger Together)',
     image: null,
+    langs: ['Unity', 'C#'],
     links: [
         <Link text={'itch.io'} link={'https://joshwalker.itch.io/none-of-your-zombusiness'}/>,
         <Link text={'Brackeys Jam'} link={'https://itch.io/jam/brackeys-5/rate/928787'}/>,

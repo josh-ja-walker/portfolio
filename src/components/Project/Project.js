@@ -41,9 +41,10 @@ function ProjectImage({src, alt}) {
 }
 
 /* Singular project */
-export function Project({title, links, image, subtitle, desc}) {
+export function Project({title, subtitle, image, langs, links, desc}) {
     const linkItems = links.map(link => ProjectLink(link));
-    
+    const langItems = langs.map(lang => <li>{lang}</li>);
+
     return (
         <li>
             <div className='project row'>
@@ -56,6 +57,7 @@ export function Project({title, links, image, subtitle, desc}) {
                 <div>
                     <div className='subtitle'>{subtitle}</div>
                     <div className='description'>{desc}</div>
+                    <ul className='inline-list'>{langItems}</ul>
                 </div>
             </div>
         </li>
