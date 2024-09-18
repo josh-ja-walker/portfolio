@@ -31,8 +31,4 @@ function Socials() {
     );
 }
 
-function SocialImg(src) {
-    <a><img src={src}/></a>
-}
-
 export default Header;
