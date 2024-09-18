@@ -76,10 +76,12 @@ code {
   width: 65%;
   height: auto;
   margin: auto;
+  color: inherit;
 }
 
 .icon {
   vertical-align: middle;
+  color: var(--contrast);
 }
 
 
