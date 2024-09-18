@@ -3,3 +3,24 @@ img.profile {
     aspect-ratio: 1;
     border-radius: 50%;
 }
+
+/* Inline list of languages/technologies used */
+.project .inline-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+
+    list-style: disc;
+
+    padding: 0;
+    margin: 0;
+}
+
+.project .inline-list > li:first-child {
+    margin: 0;
+    list-style: none;
+}
+
+.project .inline-list > li {
+    margin-left: 1.8em;
+}
