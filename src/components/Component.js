@@ -7,6 +7,9 @@ export function Link({text, link}) {
 }
 
 export function InlineList({items}) {
-    const listItems = items.map(item => <li>{item}</li>);
-    return <ul className='inline-list'>{listItems}</ul>;
+    const listItems = items.map(item => 
+        <li>{item}</li>
+    );
+
+    return <ul className='row inline-list'>{listItems}</ul>;
 }

@@ -3,9 +3,22 @@ import { Link } from '../Component';
 const ratatui = <Link text={'Ratatui.rs'} link={'https://crates.io/crates/ratatui'}/>;
 const clap = <Link text={'CLAP'} link={'https://crates.io/crates/clap'}/>;
 
+
+export const portfolio = {
+    title: 'Portfolio',
+    subtitle: "Personal professional portfolio",
+    year: '2024',
+    image: null,
+    langs: ['ReactJS', 'HTML', 'CSS'],
+    links: [<Link text={'GitHub'} link={'https://github.com/josh-ja-walker/portfolio'}/>],
+    desc: <p>The website you are currently on</p>
+}; 
+
+
 export const sortsTUI = { 
     title: 'Sorts TUI',
     subtitle: 'In-terminal sorting algorithms simulator',
+    year: '2023 - 2024',
     image: null,
     langs: ['Rust', ratatui, clap],
     links: [<Link text='GitHub' link={'https://github.com/josh-ja-walker/sorts_tui'}/>],
@@ -23,6 +36,7 @@ const weather_api = <Link text={'WeatherAPI'} link={'https://www.weatherapi.com'
 export const weather_wallpaper = { 
     title: 'Weather Wallpaper',
     subtitle: 'Weather-dependent desktop wallpaper engine',
+    year: '2022 - 2024',
     image: null,
     langs: ['Rust', weather_api, clap],
     links: [<Link text='GitHub' link={'https://github.com/josh-ja-walker/weather_wallpaper'}/>],
@@ -38,6 +52,7 @@ export const weather_wallpaper = {
 export const origame = { 
     title: 'Origame',
     subtitle: '2D puzzle-platformer about folding paper',
+    year: '2022',
     image: null,
     langs: ['Unity', 'C#'],
     links: [
@@ -56,6 +71,7 @@ export const origame = {
 export const bogosort = {
     title: 'Bogosort',
     subtitle: 'Sorting visualiser website',
+    year: '2022',
     image: null,
     langs: ['HTML', 'CSS', 'JS'],
     links: [
@@ -67,14 +83,4 @@ export const bogosort = {
             Website simulation of bogosort; bubble sort 
             implemented as a contrasting sorting algorithm. 
         </p>
-}; 
-
-
-export const portfolio = {
-    title: 'Portfolio',
-    subtitle: "Personal professional portfolio",
-    image: null,
-    langs: ['ReactJS', 'HTML', 'CSS'],
-    links: [<Link text={'GitHub'} link={'https://github.com/josh-ja-walker/portfolio'}/>],
-    desc: <p>The website you are currently on</p>
 }; 

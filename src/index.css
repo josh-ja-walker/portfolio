@@ -1,18 +1,37 @@
-body {
-  font-size: 0.9rem;
+:root {
+  --background: white;
+  --contrast: #191919;
 
+  --text-header: black;
+  --text-subtitle: #191919;
+  --text-primary: dimgray;
+  --text-secondary: #a8a8a8;
+}
+
+[theme='dark'] {
+  --background: #191919;
+  --contrast: white;
+  
+  --text-header: white;
+  --text-subtitle: silver;
+  --text-primary: #a8a8a8;
+  --text-secondary: gray;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  
+  font-size: 0.9rem;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
 
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-
-  width: 32.5vw;
-  margin: auto;
-
-  color: var(--main-color);
-  background-color: #191919;
 }
 
 code {
@@ -20,15 +39,63 @@ code {
   monospace;
 }
 
-:root {
-  --header-color: white;
-  --subtitle-color: silver;
-  --main-color: #a8a8a8;
-  --sub-color: gray;
-  /* --header-color: red;
-  --subtitle-color: blue;
-  --main-color: green;
-  --sub-color: purple; */
+
+/* Main */
+.app {
+  height: 100%;
+
+  padding: 0 32.5vw;
+  padding-bottom: 8vh;
+  
+  color: var(--text-primary);
+  background-color: var(--background);
+  
+  transition: all 0.5s;
+}
+
+/* Theme switch button */
+.app > button {
+  position: fixed;
+  top: 3vh;
+  right: 2vw;
+
+  aspect-ratio: 1;
+  width: 2.25vw;
+  height: auto;
+
+  border: 0;
+  border-radius: 50%;
+}
+
+/* Change color of button with theme */
+.app > button {
+  color: var(--background);
+  background-color: var(--contrast);
+}
+
+/* Theme button icon */
+.app > button > .icon {
+  width: 65%;
+  height: auto;
+  margin: auto;
+}
+
+.icon {
+  vertical-align: middle;
+}
+
+
+/* Text colours */
+header {
+  color: var(--text-header);
+}
+
+.subtitle {
+  color: var(--text-subtitle);  
+}
+
+p {
+  color: var(--text-primary);
 }
 
 
@@ -40,18 +107,6 @@ code {
 .section > header {
   font-weight: bold;
   text-align: left;
-}
-
-header {
-  color: var(--header-color);
-}
-
-.subtitle {
-  color: var(--subtitle-color);  
-}
-
-p {
-  color: var(--main-color);
 }
 
 

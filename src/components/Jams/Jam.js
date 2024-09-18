@@ -1,31 +1,27 @@
-import {Project} from '../Project/Project'
+import {ProjectSection, Project, ProjectCmp} from '../Project/Project'
 
-import * as submission from './JamData';
+import * as jam_data from './JamData';
+
+const all_jams = [
+    jam_data.painball,
+    jam_data.hexatris,
+    jam_data.balls_in_holes,
+    jam_data.amazeing,
+    jam_data.zombusiness
+].sort(ProjectCmp);
 
 /* List of game jams participated in */
-export default function JamSection() {
-    return (
-        <div className='jams section'>
-            <header>Game Jams</header>
-
-            <ul className='no-bull-list'>
-                <JamSubmission {...submission.painball}/>
-                <JamSubmission {...submission.hexatris}/>
-                <JamSubmission {...submission.balls_in_holes}/>
-                <JamSubmission {...submission.amazeing}/>
-                <JamSubmission {...submission.zombusiness}/>
-            </ul>
-        </div>
-    )
+export default function Jams() {
+    const jams = all_jams.map(jam => <Jam {...jam}/>);
+    return <ProjectSection header={'Game Jams'} projects={jams}/>;
 }
 
 /* Game Jam submission */
-function JamSubmission(props) {
+function Jam(props) {
     return (
-        <li>
-            <div className='jam'>
-                <Project {...props}/>
-            </div>
-        </li>
+        <div className='jam'>
+            <Project {...props}/>
+            {/* TODO: any jam specific things */}
+        </div>
     );
 }

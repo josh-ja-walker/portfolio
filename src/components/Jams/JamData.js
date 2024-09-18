@@ -4,6 +4,7 @@ import { Link } from '../Component';
 export const painball = {
     title: 'Painball',
     subtitle: 'Ludwig Jam (Foddian)',
+    year: '2021',
     image: null,
     langs: ['Unity', 'C#'],
     links: [
@@ -23,6 +24,7 @@ export const painball = {
 export const hexatris = {
     title: 'Hexatris',
     subtitle: 'Ludum Dare (Unstable)',
+    year: '2021',
     image: null,
     langs: ['Unity', 'C#'],
     links: [
@@ -43,6 +45,7 @@ export const hexatris = {
 export const balls_in_holes = {
     title: 'Balls in Holes',
     subtitle: 'Kenney Jam (Rotation)',
+    year: '2021',
     image: null,
     langs: ['Unity', 'C#'],
     links: [
@@ -60,6 +63,7 @@ export const balls_in_holes = {
 export const amazeing = {
     title: "It's so Amazeing",
     subtitle: 'LowRezJam',
+    year: '2021',
     image: null,
     langs: ['Unity', 'C#'],
     links: [
@@ -73,6 +77,7 @@ export const amazeing = {
 export const zombusiness = {
     title: 'None of your Zombusiness',
     subtitle: 'Brackeys Jam (Stronger Together)',
+    year: '2021',
     image: null,
     langs: ['Unity', 'C#'],
     links: [

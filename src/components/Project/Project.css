@@ -7,15 +7,16 @@
 }
 
 /* Left column of project */
-.project .left {
+.project > .left {
     flex-shrink: 0;
 
-    width: 35%;
+    width: 20%;
     margin-right: 7.5%;
 }
 
-.project .left > header {
-    font-weight: bold;
+/* Year text */
+.project > .left > header {
+    color: var(--text-secondary);
 }
 
 
@@ -32,42 +33,20 @@
 
 /* Project links */
 .project .link {
-    color: var(--sub-color);
-    font-size: small;
+    color: var(--text-secondary);
+    list-style: none;
+    margin-right: 0.5em;
+}
+
+.project .link ul {
+    color: var(--text-secondary);
 }
 
 .project .link > .icon {
-    /* color: var(--subtitle-color); */
-    vertical-align: text-bottom;
+    vertical-align: middle;
 }
 
-
-/* Right column of project */
-.project .description > p > hr {
-    visibility: hidden;
-}
-
-/* Inline list of languages/technologies used */
+/* List of languages */
 .project .inline-list {
-    display: flex;
-    flex-direction: row;
-    
-    justify-content: start;
-
-    list-style: disc;
-
-    padding: 0;
-}
-
-.project .inline-list > li:first-child {
-    list-style: none;
-}
-
-.project .inline-list > li {
-    float: left;
-
-    color: var(--sub-color);
-
-    margin: 0;
-    margin-right: 20pt;
+    color: var(--text-secondary);
 }

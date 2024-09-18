@@ -5,22 +5,16 @@ img.profile {
 }
 
 /* Inline list of languages/technologies used */
-.project .inline-list {
-    display: flex;
-    flex-direction: row;
-    justify-content: start;
-
-    list-style: disc;
-
+.inline-list {
     padding: 0;
     margin: 0;
 }
 
-.project .inline-list > li:first-child {
-    margin: 0;
+.inline-list > li:first-child {
     list-style: none;
+    margin: 0;
 }
 
-.project .inline-list > li {
+.inline-list > li {
     margin-left: 1.8em;
 }
