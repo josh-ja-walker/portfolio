@@ -1,27 +1,22 @@
 import { Link } from '../Component';
 
-const ratatui = <Link text={'Ratatui.rs'} link={'https://crates.io/crates/ratatui'}/>;
-const clap = <Link text={'CLAP'} link={'https://crates.io/crates/clap'}/>;
-
 
 export const portfolio = {
-    title: 'Portfolio',
+    title: <Link text={'Portfolio'} link={'https://github.com/josh-ja-walker/portfolio'}/>,
     subtitle: "Personal professional portfolio",
     year: '2024',
-    image: null,
     langs: ['ReactJS', 'HTML', 'CSS'],
-    links: [<Link text={'GitHub'} link={'https://github.com/josh-ja-walker/portfolio'}/>],
     desc: <p>The website you are currently on</p>
 }; 
 
+const ratatui = <Link text={'Ratatui.rs'} link={'https://crates.io/crates/ratatui'}/>;
+const clap = <Link text={'CLAP'} link={'https://crates.io/crates/clap'}/>;
 
 export const sortsTUI = { 
-    title: 'Sorts TUI',
-    subtitle: 'In-terminal sorting algorithms simulator',
+    title: <Link text='Sorts TUI' link={'https://github.com/josh-ja-walker/sorts_tui'}/>,
+    subtitle: 'in-terminal sorting algorithms simulator',
     year: '2023 - 2024',
-    image: null,
     langs: ['Rust', ratatui, clap],
-    links: [<Link text='GitHub' link={'https://github.com/josh-ja-walker/sorts_tui'}/>],
     desc: 
         <p>
             Simulates sorting algorithms on a bar chart, rendering each step in terminal.
@@ -34,12 +29,10 @@ export const sortsTUI = {
 const weather_api = <Link text={'WeatherAPI'} link={'https://www.weatherapi.com'}/>;
 
 export const weather_wallpaper = { 
-    title: 'Weather Wallpaper',
-    subtitle: 'Weather-dependent desktop wallpaper engine',
+    title: <Link text='Weather Wallpaper' link={'https://github.com/josh-ja-walker/weather_wallpaper'}/>,
+    subtitle: 'in-terminal wallpaper engine',
     year: '2022 - 2024',
-    image: null,
     langs: ['Rust', weather_api, clap],
-    links: [<Link text='GitHub' link={'https://github.com/josh-ja-walker/weather_wallpaper'}/>],
     desc:
         <p>
             Dynamically changes desktop wallpaper to reflect local weather.
@@ -50,15 +43,10 @@ export const weather_wallpaper = {
 
 
 export const origame = { 
-    title: 'Origame',
+    title: <Link text={'Origame'} link={'https://joshwalker.itch.io/origame'}/>,
     subtitle: '2D puzzle-platformer about folding paper',
     year: '2022',
-    image: null,
     langs: ['Unity', 'C#'],
-    links: [
-        <Link text={'GitHub'} link={'https://github.com/josh-ja-walker/Origame'}/>,
-        <Link text={'itch.io'} link={'https://joshwalker.itch.io/origame'}/>
-    ],
     desc: 
         <p>
             Fold platforms in order to solve puzzles and progress through levels. 
@@ -69,15 +57,10 @@ export const origame = {
 
 
 export const bogosort = {
-    title: 'Bogosort',
+    title: <Link text={'Bogosort'} link={'https://josh-ja-walker.github.io/Bogosort/'}/>,
     subtitle: 'Sorting visualiser website',
     year: '2022',
-    image: null,
     langs: ['HTML', 'CSS', 'JS'],
-    links: [
-        <Link text={'Website'} link={'https://josh-ja-walker.github.io/Bogosort/'}/>,
-        <Link text={'GitHub'} link={'https://github.com/josh-ja-walker/Bogosort'}/>,
-    ],
     desc:
         <p>
             Website simulation of bogosort; bubble sort 

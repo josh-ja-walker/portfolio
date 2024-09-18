@@ -37,22 +37,6 @@
     filter: none;
 }
 
-
-/* Project links */
-.project .link {
-    color: var(--text-secondary);
-    list-style: none;
-    margin-right: 0.5em;
-}
-
-.project .link ul {
-    color: var(--text-secondary);
-}
-
-.project .link > .icon {
-    vertical-align: middle;
-}
-
 /* List of languages */
 .project .inline-list {
     color: var(--text-secondary);

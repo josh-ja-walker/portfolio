@@ -2,16 +2,10 @@ import { Link } from '../Component';
 
 
 export const painball = {
-    title: 'Painball',
-    subtitle: 'Ludwig Jam (Foddian)',
+    title: <Link text={'Painball'} link={'https://joshwalker.itch.io/painball'}/>,
+    subtitle: <Link text={'Ludwig Jam (Foddian)'} link={'https://itch.io/jam/ludwig-2021/rate/1248951'}/>,
     year: '2021',
-    image: null,
     langs: ['Unity', 'C#'],
-    links: [
-        <Link text={'GitHub'} link={'https://github.com/josh-ja-walker/Painball'}/>,
-        <Link text={'itch.io'} link={'https://joshwalker.itch.io/painball'}/>,
-        <Link text={'Ludwig Jam'} link={'https://itch.io/jam/ludwig-2021/rate/1248951'}/>
-    ],
     desc: 
         <p>
             Foddian pinball game, emulating the frustration of popular Bennett Foddy games.
@@ -22,16 +16,10 @@ export const painball = {
 
 
 export const hexatris = {
-    title: 'Hexatris',
-    subtitle: 'Ludum Dare (Unstable)',
+    title: <Link text={'Hexatris'} link={'https://joshwalker.itch.io/hexatris'}/>,
+    subtitle: <Link text={'Ludum Dare (Unstable)'} link={'https://ldjam.com/events/ludum-dare/49/hexatris'}/>,
     year: '2021',
-    image: null,
     langs: ['Unity', 'C#'],
-    links: [
-        <Link text={'GitHub'} link={'https://github.com/josh-ja-walker/hexatris'}/>,
-        <Link text={'itch.io'} link={'https://joshwalker.itch.io/hexatris'}/>,
-        <Link text={'Ludum Dare'} link={'https://ldjam.com/events/ludum-dare/49/hexatris'}/>
-    ],
     desc: 
         <p>
             Stack hexagonal shaped blocks on a precarious island. 
@@ -43,15 +31,10 @@ export const hexatris = {
 
 
 export const balls_in_holes = {
-    title: 'Balls in Holes',
-    subtitle: 'Kenney Jam (Rotation)',
+    title: <Link text={'Balls in Holes'} link={'https://joshwalker.itch.io/ballsinholes'}/>,
+    subtitle: <Link text={'Kenney Jam (Rotation)'} link={'https://itch.io/jam/kenney-jam-2021'}/>,
     year: '2021',
-    image: null,
     langs: ['Unity', 'C#'],
-    links: [
-        <Link text={'itch.io'} link={'https://joshwalker.itch.io/ballsinholes'}/>,
-        <Link text={'Kenney Jam'} link={'https://itch.io/jam/kenney-jam-2021'}/>,
-    ],
     desc: 
         <p>
             Golf game made with assets provided by the host of jam, Kenney, 
@@ -61,32 +44,22 @@ export const balls_in_holes = {
 
 
 export const amazeing = {
-    title: "It's so Amazeing",
-    subtitle: 'LowRezJam',
+    title: <Link text={"It's so Amazeing"} link={'https://joshwalker.itch.io'}/>,
+    subtitle: <Link text={"LowRezJam"} link={'https://itch.io/jam/lowrezjam-2021'}/>,
     year: '2021',
-    image: null,
     langs: ['Unity', 'C#'],
-    links: [
-        <Link text={"itch.io"} link={'https://joshwalker.itch.io'}/>,
-        <Link text={"LowRezJam"} link={'https://itch.io/jam/lowrezjam-2021'}/>,
-    ],
     desc: <p>Atmospheric maze game export constrained by the 64 x 64 resolution.</p>
 }
 
 
 export const zombusiness = {
-    title: 'None of your Zombusiness',
-    subtitle: 'Brackeys Jam (Stronger Together)',
+    title: <Link text={'None of your Zombusiness'} link={'https://joshwalker.itch.io/none-of-your-zombusiness'}/>,
+    subtitle: <Link text={'Brackeys Jam (Stronger Together)'} link={'https://itch.io/jam/brackeys-5/rate/928787'}/>,
     year: '2021',
-    image: null,
     langs: ['Unity', 'C#'],
-    links: [
-        <Link text={'itch.io'} link={'https://joshwalker.itch.io/none-of-your-zombusiness'}/>,
-        <Link text={'Brackeys Jam'} link={'https://itch.io/jam/brackeys-5/rate/928787'}/>,
-    ],
     desc: 
         <p>
-            My first game: a 2D top-down shooter, initially intended to 
+            My first jam submission: a 2D top-down shooter, initially intended to 
             be a dynamic tower-defense game.
             <br></br>
             I learnt invaluable lessons about limiting a design appetite, 

@@ -3,9 +3,8 @@
   --contrast: #191919;
 
   --text-header: black;
-  --text-subtitle: #191919;
-  --text-primary: dimgray;
-  --text-secondary: #a8a8a8;
+  --text-primary: #656565;
+  --text-secondary: darkgray;
 }
 
 [theme='dark'] {
@@ -89,15 +88,6 @@ header {
   color: var(--text-header);
 }
 
-.subtitle {
-  color: var(--text-subtitle);  
-}
-
-p {
-  color: var(--text-primary);
-}
-
-
 /* Sections */
 .section {
   margin-bottom: 8vh;
@@ -132,17 +122,5 @@ p {
   list-style-type: none;
   margin: 0;
   padding: 0;
-}
-
-
-/* Link formatting */
-a {
-  text-decoration: none;
-  color: inherit;
-}
-
-a:hover {
-  text-decoration: underline;
-  text-underline-offset: 1pt;
 }
 

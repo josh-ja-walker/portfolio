@@ -9,8 +9,8 @@ const all_projects = [
     project_data.sortsTUI, 
     project_data.weather_wallpaper, 
     project_data.origame, 
-    project_data.bogosort, 
-    project_data.portfolio
+    // project_data.bogosort, 
+    // project_data.portfolio
 ].sort(ProjectCmp);
 
 export function ProjectCmp(a, b) {
@@ -46,32 +46,17 @@ export function ProjectSection({header, projects}) {
 
 /* Singular project */
 export function Project(props) {
-    const links = props.links.map(link => ProjectLink(link));
-    
     return (
         <div className='project row'>
             <div className='left'>
                 <header>{props.year}</header>
-                <ProjectImage src={props.img} alt={'project'}/>
             </div>
 
             <div>
-                <header>{props.title} - {props.subtitle}</header>
+                <header>{props.title} - {props.subtitle} <PiArrowUpRight/></header>
                 <div className='description'>{props.desc}</div>
                 <InlineList items={props.langs}/>
             </div>
         </div>
     );
-}
-
-/* Link embedded in project */
-function ProjectLink(link) {
-    return <span className='link'>
-        {link}<PiArrowUpRight className='icon'/>
-    </span>;
-}
-
-/* Image embedded in project */
-function ProjectImage({src, alt}) {
-    return src == null ? null : <img src={src} alt={alt}/>;
 }

@@ -5,8 +5,8 @@ import * as jam_data from './JamData';
 const all_jams = [
     jam_data.painball,
     jam_data.hexatris,
-    jam_data.balls_in_holes,
-    jam_data.amazeing,
+    // jam_data.balls_in_holes,
+    // jam_data.amazeing,
     jam_data.zombusiness
 ].sort(ProjectCmp);
 
