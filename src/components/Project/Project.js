@@ -56,12 +56,7 @@ export function Project(props) {
             </div>
 
             <div>
-                <header>
-                    {props.title}
-                    <span className='subtitle'> - {props.subtitle}</span>
-                </header>
-
-                <div className='row'>{links}</div>
+                <header>{props.title} - {props.subtitle}</header>
                 <div className='description'>{props.desc}</div>
                 <InlineList items={props.langs}/>
             </div>

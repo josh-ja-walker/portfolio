@@ -14,8 +14,15 @@
     margin-right: 7.5%;
 }
 
+
+/* Project name */
+.project header {
+    font-weight: bold;
+}
+
 /* Year text */
 .project > .left > header {
+    font-weight: normal;
     color: var(--text-secondary);
 }
 
