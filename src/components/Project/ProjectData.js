@@ -45,7 +45,7 @@ export const weather_wallpaper = {
 export const origame = { 
     title: <Link text={'Origame'} link={'https://joshwalker.itch.io/origame'}/>,
     subtitle: '2D puzzle-platformer about folding paper',
-    year: '2022',
+    year: '2022 - 2024',
     langs: ['Unity', 'C#'],
     desc: 
         <p>
