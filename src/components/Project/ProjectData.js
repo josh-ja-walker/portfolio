@@ -2,8 +2,9 @@ import { Link } from '../Component';
 
 
 export const portfolio = {
-    title: <Link text={'Portfolio'} link={'https://github.com/josh-ja-walker/portfolio'}/>,
+    title: 'Portfolio',
     subtitle: "Personal professional portfolio",
+    link: 'https://github.com/josh-ja-walker/portfolio',
     year: '2024',
     langs: ['ReactJS', 'HTML', 'CSS'],
     desc: <p>The website you are currently on</p>
@@ -11,8 +12,9 @@ export const portfolio = {
 
 
 export const ginseng = { 
-    title: <Link text='Ginseng' link={'https://github.com/josh-ja-walker/ginseng'}/>,
+    title: 'Ginseng',
     subtitle: 'staged graphics library',
+    link: 'https://github.com/josh-ja-walker/ginseng',
     year: '2026',
     langs: ['Scala', 'OpenGL'],
     desc: 
@@ -26,8 +28,9 @@ const laminar = <Link text={'Laminar'} link={'https://laminar.dev/'}/>;
 const tauri = <Link text={'Tauri'} link={'https://tauri.app/'}/>;
 
 export const dill = { 
-    title: <Link text='Dill' link={'https://github.com/josh-ja-walker/ginseng'}/>,
+    title: 'Dill',
     subtitle: 'cross-platform interactive debugger for Parsley',
+    link: 'https://github.com/josh-ja-walker/ginseng',
     year: '2025',
     langs: ['Scala', laminar, 'Rust', tauri],
     desc: 
@@ -44,8 +47,9 @@ const ratatui = <Link text={'Ratatui.rs'} link={'https://crates.io/crates/ratatu
 const clap = <Link text={'CLAP'} link={'https://crates.io/crates/clap'}/>;
 
 export const sortsTUI = { 
-    title: <Link text='Sorts TUI' link={'https://github.com/josh-ja-walker/sorts_tui'}/>,
+    title: 'Sorts TUI',
     subtitle: 'in-terminal sorting algorithms simulator',
+    link: 'https://github.com/josh-ja-walker/sorts_tui',
     year: '2023 - 2024',
     langs: ['Rust', ratatui, clap],
     desc: 
@@ -60,8 +64,9 @@ export const sortsTUI = {
 const weather_api = <Link text={'WeatherAPI'} link={'https://www.weatherapi.com'}/>;
 
 export const weather_wallpaper = { 
-    title: <Link text='Weather Wallpaper' link={'https://github.com/josh-ja-walker/weather_wallpaper'}/>,
+    title: 'Weather Wallpaper',
     subtitle: 'in-terminal wallpaper engine',
+    link: 'https://github.com/josh-ja-walker/weather_wallpaper',
     year: '2022 - 2024',
     langs: ['Rust', weather_api, clap],
     desc:
@@ -74,8 +79,9 @@ export const weather_wallpaper = {
 
 
 export const origame = { 
-    title: <Link text={'Origame'} link={'https://joshwalker.itch.io/origame'}/>,
+    title: 'Origame',
     subtitle: '2D puzzle-platformer about folding paper',
+    link: 'https://joshwalker.itch.io/origame',
     year: '2022 - 2024',
     langs: ['Unity', 'C#'],
     desc: 
@@ -88,8 +94,9 @@ export const origame = {
 
 
 export const bogosort = {
-    title: <Link text={'Bogosort'} link={'https://josh-ja-walker.github.io/Bogosort/'}/>,
+    title: 'Bogosort',
     subtitle: 'Sorting visualiser website',
+    link: 'https://josh-ja-walker.github.io/Bogosort/',
     year: '2022',
     langs: ['HTML', 'CSS', 'JS'],
     desc:

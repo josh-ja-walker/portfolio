@@ -3,7 +3,7 @@ import { PiArrowUpRight } from "react-icons/pi";
 
 import './Project.css'
 import '../../index.css'
-import { InlineList } from '../Component';
+import { InlineList, Link } from '../Component';
 
 const all_projects = [
     project_data.ginseng,
@@ -55,7 +55,10 @@ export function Project(props) {
             </div>
 
             <div>
-                <header>{props.title} - {props.subtitle} <PiArrowUpRight/></header>
+                <header>
+                    <Link text={props.title} link={props.link}/> - {props.subtitle}
+                    <Link text={<PiArrowUpRight/>} link={props.link}/>
+                </header>
                 <div className='description'>{props.desc}</div>
                 <InlineList items={props.langs}/>
             </div>
