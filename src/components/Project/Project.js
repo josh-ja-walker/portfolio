@@ -6,6 +6,8 @@ import '../../index.css'
 import { InlineList } from '../Component';
 
 const all_projects = [
+    project_data.ginseng,
+    project_data.dill,
     project_data.sortsTUI, 
     project_data.weather_wallpaper, 
     project_data.origame, 

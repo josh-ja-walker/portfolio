@@ -7,7 +7,38 @@ export const portfolio = {
     year: '2024',
     langs: ['ReactJS', 'HTML', 'CSS'],
     desc: <p>The website you are currently on</p>
-}; 
+};
+
+
+export const ginseng = { 
+    title: <Link text='Ginseng' link={'https://github.com/josh-ja-walker/ginseng'}/>,
+    subtitle: 'staged graphics library',
+    year: '2026',
+    langs: ['Scala', 'OpenGL'],
+    desc: 
+    <p>
+        Final-year project using staged-metaprogramming techniques to efficiently convert from a functional graphics API to optimised legacy OpenGL code.
+    </p>
+};
+
+
+const laminar = <Link text={'Laminar'} link={'https://laminar.dev/'}/>;
+const tauri = <Link text={'Tauri'} link={'https://tauri.app/'}/>;
+
+export const dill = { 
+    title: <Link text='Dill' link={'https://github.com/josh-ja-walker/ginseng'}/>,
+    subtitle: 'cross-platform interactive debugger for Parsley',
+    year: '2025',
+    langs: ['Scala', laminar, 'Rust', tauri],
+    desc: 
+    <p>
+        Provide visual debugging functionality of Parsley's parser combinators.
+        Developed under supervision of Jamie Willis with 5 other talented students.
+        <br></br>
+        Backend platform developed in Rust using Tauri, ScalaJS Laminar framework used to render the frontend.
+    </p>
+};
+
 
 const ratatui = <Link text={'Ratatui.rs'} link={'https://crates.io/crates/ratatui'}/>;
 const clap = <Link text={'CLAP'} link={'https://crates.io/crates/clap'}/>;
