@@ -1,5 +1,4 @@
 import * as project_data from './ProjectData';
-import { PiArrowUpRight } from "react-icons/pi";
 
 import './Project.css'
 import '../../index.css'
