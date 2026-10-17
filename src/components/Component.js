@@ -1,8 +1,14 @@
 import './Component.css';
+import { PiArrowUpRight } from "react-icons/pi";
+
 
 export function Link({text, link}) {
     return (
-        <a className='link' href={link} target='_blank' rel='noopener noreferrer'>{text}</a>
+        <span>
+            <a className='link' href={link} target='_blank' rel='noopener noreferrer'>
+                {text}<PiArrowUpRight/>
+            </a>
+        </span>
     );
 }
 

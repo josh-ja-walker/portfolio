@@ -1,5 +1,4 @@
 import * as project_data from './ProjectData';
-import { PiArrowUpRight } from "react-icons/pi";
 
 import './Project.css'
 import '../../index.css'
@@ -12,7 +11,7 @@ const all_projects = [
     project_data.weather_wallpaper, 
     project_data.origame, 
     // project_data.bogosort, 
-    // project_data.portfolio
+    project_data.portfolio
 ].sort(ProjectCmp);
 
 export function ProjectCmp(a, b) {
@@ -57,7 +56,6 @@ export function Project(props) {
             <div>
                 <header>
                     <Link text={props.title} link={props.link}/> - {props.subtitle}
-                    <Link text={<PiArrowUpRight/>} link={props.link}/>
                 </header>
                 <div className='description'>{props.desc}</div>
                 <InlineList items={props.langs}/>

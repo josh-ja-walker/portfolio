@@ -1,12 +1,13 @@
 import {ProjectSection, Project, ProjectCmp} from '../Project/Project'
+import {Link} from '../Component';
 
 import * as jam_data from './JamData';
 
 const all_jams = [
     jam_data.painball,
     jam_data.hexatris,
-    // jam_data.balls_in_holes,
-    // jam_data.amazeing,
+    jam_data.balls_in_holes,
+    jam_data.amazeing,
     jam_data.zombusiness
 ].sort(ProjectCmp);
 
@@ -20,7 +21,10 @@ export default function Jams() {
 function Jam(props) {
     return (
         <div className='jam'>
-            <Project {...props}/>
+            <Project 
+                subtitle={<Link text={props.jam.name} link={props.jam.link}/>}
+                {...props}
+            />
             {/* TODO: any jam specific things */}
         </div>
     );

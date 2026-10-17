@@ -6,7 +6,7 @@ function About() {
         <div className='about section'>
             <header>About</header>
             <p>
-                Fourth-year student at Imperial College London, studying MEng Computing, with a strong interest in graphics programming and its application in games and software development. 
+                Computing graduate from <b>Imperial College London</b>, attaining First Class honours &ndash; passionate about creative computing, graphics and games.
             </p>
         </div>
     );

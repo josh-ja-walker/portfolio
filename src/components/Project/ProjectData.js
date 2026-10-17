@@ -3,23 +3,27 @@ import { Link } from '../Component';
 
 export const portfolio = {
     title: 'Portfolio',
-    subtitle: "Personal professional portfolio",
+    subtitle: "personal project showcase",
     link: 'https://github.com/josh-ja-walker/portfolio',
     year: '2024',
     langs: ['ReactJS', 'HTML', 'CSS'],
-    desc: <p>The website you are currently on</p>
+    desc: <p></p>
 };
 
+
+const snbindgen = <Link text={'sn-bindgen'} link={'https://sn-bindgen.indoorvivants.com/'}/>;
 
 export const ginseng = { 
     title: 'Ginseng',
     subtitle: 'staged graphics library',
     link: 'https://github.com/josh-ja-walker/ginseng',
     year: '2026',
-    langs: ['Scala', 'OpenGL'],
+    langs: ['ScalaNative', 'OpenGL', snbindgen],
     desc: 
     <p>
-        Final-year project using staged-metaprogramming techniques to efficiently convert from a functional graphics API to optimised legacy OpenGL code.
+        Final-year thesis project using staged-metaprogramming techniques to efficiently convert from a functional graphics API to optimised legacy OpenGL code.
+        <br></br>
+        Generated underlying ScalaNative OpenGL bindings using sn-bindgen library.
     </p>
 };
 
@@ -32,7 +36,7 @@ export const dill = {
     subtitle: 'cross-platform interactive debugger for Parsley',
     link: 'https://github.com/josh-ja-walker/ginseng',
     year: '2025',
-    langs: ['Scala', laminar, 'Rust', tauri],
+    langs: ['ScalaJS', laminar, 'Rust', tauri],
     desc: 
     <p>
         Provide visual debugging functionality of Parsley's parser combinators.

@@ -13,7 +13,7 @@ function Header() {
             
             <div className='col bio'> 
                 <header>Joshua Walker</header>
-                <p>Solo software and games developer</p>
+                <p>Software engineer and developer</p>
                 <Socials/>
             </div>
 
@@ -24,9 +24,9 @@ function Header() {
 function Socials() {
     return (
         <div className='socials row'>
-            <Link text={<FaGithub/>} link={'https://github.com/josh-ja-walker'}/>
-            <Link text={<FaLinkedin/>} link={'https://www.linkedin.com/in/joshua-walker-080714238/'}/>
-            <Link text={<FaItchIo/>} link={'https://joshwalker.itch.io/'}/>
+            <a href={'https://github.com/josh-ja-walker'}><FaGithub/></a>
+            <a href={'https://www.linkedin.com/in/joshua-walker-080714238/'}><FaLinkedin/></a>
+            <a href={'https://joshwalker.itch.io/'}><FaItchIo/></a>
         </div>
     );
 }
