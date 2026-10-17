@@ -57,7 +57,6 @@ export function Project(props) {
             <div>
                 <header>
                     <Link text={props.title} link={props.link}/> - {props.subtitle}
-                    <Link text={<PiArrowUpRight/>} link={props.link}/>
                 </header>
                 <div className='description'>{props.desc}</div>
                 <InlineList items={props.langs}/>
