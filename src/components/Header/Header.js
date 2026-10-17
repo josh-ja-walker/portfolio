@@ -13,7 +13,7 @@ function Header() {
             
             <div className='col bio'> 
                 <header>Joshua Walker</header>
-                <p>Solo software and games developer</p>
+                <p>Software engineer and developer</p>
                 <Socials/>
             </div>
 
