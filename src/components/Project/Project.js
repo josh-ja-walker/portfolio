@@ -11,7 +11,7 @@ const all_projects = [
     project_data.weather_wallpaper, 
     project_data.origame, 
     // project_data.bogosort, 
-    // project_data.portfolio
+    project_data.portfolio
 ].sort(ProjectCmp);
 
 export function ProjectCmp(a, b) {
