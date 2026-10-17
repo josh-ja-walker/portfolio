@@ -9,7 +9,7 @@ import useLocalStorage from 'use-local-storage';
 import Header from './components/Header/Header';
 import About from './components/About/About';
 
-import {MyProjects} from './components/Project/Project';
+import { MyProjects } from './components/Project/Project';
 import Jams from './components/Jams/Jam';
 
 import Footer from './components/Footer/Footer';
@@ -27,8 +27,8 @@ root.render(
 
     
 function App() {
-    const defaultDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
-    const [isDarkTheme, setTheme] = useLocalStorage('theme', defaultDark);    
+    const defaultLight = window.matchMedia('(prefers-color-scheme: light)').matches;
+    const [isDarkTheme, setTheme] = useLocalStorage('theme', defaultLight);    
 
     const toggleTheme = () => {
         setTheme(!isDarkTheme);
