@@ -1,5 +1,3 @@
-import { Link } from '../Component';
-
 import pfp from './pfp.jpg'
 import './Header.css'
 
